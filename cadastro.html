@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/cadastro.css">
+    <title>PassBuss - Cadastre-se</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/sign-in-animate.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="login.html">Entrar</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                        
+                    <div class="input-box">
+                        <label id="labelNome" for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label id="labelEmail" for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Digite o seu email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label id="labelUsuario" for="usuario">Usuario</label>
+                        <input type="text" id="usuario" name="usuario" placeholder="Digite um usuario" required>
+                    </div>
+                    
+                    <div class="input-box">
+                        <label id="labelSenha" for="senha">Senha</label>
+                        <input type="password" id="senha" name="senha" placeholder="Digite uma senha" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label id="labelConfirmSenha" for="confirmSenha">Confirme a senha</label>
+                        <input type="password" id="confirmSenha" name="confirmSenha" placeholder="Confirme a senha" required>
+                    </div>
+
+                    
+
+                    <div class="continue-button">
+                    <button onclick="cadastrar()" class="btn-register"><a href="#">Cadastrar</a> </button>
+                    
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/js/cadastro.js" defer></script>
+    
+</body>
+
+</html>
